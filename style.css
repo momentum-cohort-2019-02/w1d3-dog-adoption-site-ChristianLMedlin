@@ -1,6 +1,6 @@
 body{
   margin: 0em;
-  font-family: Open-Sans;
+  font-family: "Open Sans";
   box-sizing: border-box
 }
 
@@ -83,12 +83,39 @@ body{
   background-color: #FFFFFF;
 }
 
-.dogTag{
-  margin-left:.25em;
-  margin-right:.25em;
+li{
+  display: inline-flex;
+  margin-left:0;
+  margin-right:0em;
   background-color: #90DDF0;
   border-radius: 10px;
   padding-left:.25em;
   padding-right:.25em;
   flex-wrap: wrap;
+  margin-top: .25em;
+  font-size: .85rem;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+}
+
+.names{
+  margin: 0;
+}
+
+#footerPics{
+  width: auto;
+}
+
+#pic1{
+  background:
+    linear-gradient(
+      rgba(104, 117, 166, 0.45)
+      rgba(104, 117, 166, 0.45)
+    ),
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/owl1.jpg) center/cover;
+  width: 32%;
+  height: 15em;
 }
